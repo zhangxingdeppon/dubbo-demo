@@ -1,0 +1,15 @@
+server:
+  port: 38081
+dubbo:
+  application:
+    name: dubbo-provider-demo
+  registry:
+    protocol: zookeeper
+    address: 172.16.1.123:52181
+    client: zkclient
+  protocol:
+    name: dubbo
+    port: 20882
+    payload: 2147483647
+  provider:
+    timeout: 60000

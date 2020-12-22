@@ -1,0 +1,22 @@
+server:
+  port: 18080
+  tomcat:
+    max-threads: 800
+dubbo:
+  application:
+    name: dubbo-consumer-demo
+  registry:
+    protocol: zookeeper
+    address: 101.91.118.202:52181
+    # address: 172.17.26.209:2181
+    client: zkclient
+    check: true
+  protocol:
+    name: dubbo
+    port: 20883
+    payload: 2147483647
+  consumer:
+    timeout: 180000
+    check: true
+  reference:
+    check: true
