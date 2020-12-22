@@ -10,7 +10,7 @@
     <dubbo:application name="test_consumer" />
 
     <!-- 使用zookeeper注册中心暴露服务地址 -->
-    <dubbo:registry address="zookeeper://101.91.118.202:52181" />
+    <dubbo:registry address="zookeeper://xxxx:52181" />
 
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:reference interface="com.dubbo.service.TestService" id="testService" check="false" />

@@ -7,8 +7,8 @@ dubbo:
     name: dubbo-consumer-demo
   registry:
     protocol: zookeeper
-    address: 101.91.118.202:52181
-    # address: 172.17.26.209:2181
+    address: xxxx:52181
+    # address: xxxx:2181
     client: zkclient
     check: true
   protocol:

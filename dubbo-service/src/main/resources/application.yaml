@@ -5,7 +5,7 @@ dubbo:
     name: dubbo-provider-demo
   registry:
     protocol: zookeeper
-    address: 172.16.1.123:52181
+    address: xxxx:52181
     client: zkclient
   protocol:
     name: dubbo
